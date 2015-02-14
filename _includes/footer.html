@@ -1,55 +1,88 @@
-<footer class="site-footer">
+	<footer role="contentinfo" class="site-footer">
+		<div class="row">
+			<div class="seven columns">
+				<p style="color:white">&copy; 2014&#8211;2015 <a href="http://yangmeyer.de/" style="color:inherit">Yang Meyer</a>. Made in Stockholm and Frankfurt.</p>
+			</div>
+			<div class="five columns">
+				<p style="text-align:right">
+					<a href="https://twitter.com/GembaApp" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @GembaApp</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-  <div class="wrapper">
+					&nbsp;&nbsp;
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gemba.io" data-size="large" data-related="GembaApp">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- /END: Site Footer -->
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+	<script>
+	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+	if(!oldieCheck) {
+	document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+	} else {
+	document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+	}
+	</script>
+	<script>
+	if(!window.jQuery) {
+	if(!oldieCheck) {
+	  document.write('<script src="http://blog.gemba.io/js/libs/jquery-2.0.2.min.js"><\/script>');
+	} else {
+	  document.write('<script src="http://blog.gemba.io/js/libs/jquery-1.10.1.min.js"><\/script>');
+	}
+	}
+	</script>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="icon  icon--github">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-                </svg>
-              </span>
+	<!--
+	Include gumby.js followed by UI modules followed by gumby.init.js
+	Or concatenate and minify into a single file -->
+	<script gumby-touch="js/libs" src="http://blog.gemba.io/js/libs/gumby.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.retina.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.fixed.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.skiplink.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.checkbox.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.radiobtn.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.tabs.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.navbar.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.parallax.js"></script>
+	<script src="http://blog.gemba.io/js/libs/ui/gumby.shuffle.js"></script>	
+	<script src="http://blog.gemba.io/js/libs/ui/jquery.validation.js"></script>
 
-              <span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
-          {% endif %}
+	<!-- Must Come LAST (after gumby components)  -->
+	<script src="http://blog.gemba.io/js/libs/gumby.init.js"></script>
 
-          {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="icon  icon--twitter">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
-                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
-                </svg>
-              </span>
+	<!--
+	gumby.min.js contains gumby.js, all UI modules and gumby.init.js
+	<script src="http://blog.gemba.io/js/libs/gumby.min.js"></script> -->
 
-              <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+	<!-- External Plugins Not Linked Directly to Gumby -->
 
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
+	<script src="http://blog.gemba.io/js/plugins/jquery.bxslider.min.js"></script>
+	<script src="http://blog.gemba.io/js/plugins/waypoints.min.js"></script>
+	<script src="http://blog.gemba.io/js/plugins/placeholders.js"></script>
 
-  </div>
+	<!-- Custom theme specific interaction -->
+	<script src="http://blog.gemba.io/js/theme.js"></script>
 
-</footer>
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-46201230-3', 'gemba.io');
+	  ga('send', 'pageview');
+
+	</script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
