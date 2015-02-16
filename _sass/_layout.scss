@@ -361,8 +361,8 @@ html, body {
   font-family: "entypo";
   font-style: normal;
   font-weight: 400;
-  src: url(http://127.0.0.1:4000/fonts/icons/entypo.eot);
-  src: url("http://127.0.0.1:4000/fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("http://127.0.0.1:4000/fonts/icons/entypo.woff") format("woff"), url("http://127.0.0.1:4000/fonts/icons/entypo.ttf") format("truetype"); }
+  src: url("/fonts/icons/entypo.eot");
+  src: url("/fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("/fonts/icons/entypo.woff") format("woff"), url("/fonts/icons/entypo.ttf") format("truetype"); }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans";
@@ -7394,7 +7394,7 @@ table {
 *****/
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(http://127.0.0.1:4000/img/slider/bx_loader.gif) center center no-repeat white;
+  background: url(/img/slider/bx_loader.gif) center center no-repeat white;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -7478,7 +7478,7 @@ table {
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url(http://127.0.0.1:4000/img/slider/controls.png) -86px -11px no-repeat;
+  background: url(/img/slider/controls.png) -86px -11px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -7491,7 +7491,7 @@ table {
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url(http://127.0.0.1:4000/img/slider/controls.png) -86px -44px no-repeat;
+  background: url(/img/slider/controls.png) -86px -44px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
