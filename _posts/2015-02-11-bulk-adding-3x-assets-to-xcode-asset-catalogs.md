@@ -2,7 +2,7 @@
 layout: post
 title:  "Bulk-adding @3x assets to Xcode Asset Catalogs"
 date:   2015-02-11 16:34:14
-categories: using-gemba Xcode
+categories: using-gemba
 ---
 
 If you’ve been holding out on making your apps ready for the iPhones 6 because of the hassle involved with re-exporting all assets and integrating them into Xcode, here’s some good news for you.
