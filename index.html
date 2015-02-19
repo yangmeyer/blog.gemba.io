@@ -12,7 +12,11 @@ layout: default
         <h2 style="padding-top:0">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {{ post.content }}
+
+        {{ post.excerpt }}
+
+        <p><a href="{{ post.url | prepend: site.baseurl }}">Read more →</a></p>
+
       </li>
     {% endfor %}
   </ul>
