@@ -87,6 +87,28 @@
 }
 
 
+.horizontaly-centered {
+  @media screen and (max-width: 500px) {
+    margin: 0 auto !important;
+  }
+}
+.horizontaly-centered-content {
+  text-align: center;
+}
+
+.pull-left-text {
+  text-align: left;
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+}
+.pull-left-block {
+  float: left;
+  @media screen and (max-width: 500px) {
+    float: none;
+  }
+}
+
 
 /**
  * Site footer
@@ -7754,8 +7776,7 @@ table {
     border-color: #ff8400; }
   @media screen and (max-width: 500px) {
     .medium-btn-side {
-      font-size: 17px;
-      padding-top: 21px; } }
+      font-size: 17px; } }
 
 /**
 * Site Footer 
