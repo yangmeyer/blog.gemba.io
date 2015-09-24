@@ -1,5 +1,6 @@
 ---
 layout: post
+author: yang
 title:  "What’s new in Beta 3"
 date:   2015-06-23 15:30:00
 categories: creating-gemba

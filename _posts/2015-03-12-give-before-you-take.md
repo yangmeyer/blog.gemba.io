@@ -1,5 +1,6 @@
 ---
 layout: post
+author: yang
 title:  "Give before you take"
 date:   2015-03-12 15:30:00
 categories: creating-gemba

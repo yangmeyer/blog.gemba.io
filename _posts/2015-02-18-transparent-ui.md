@@ -1,5 +1,6 @@
 ---
 layout: post
+author: yang
 title:  "Too Simple to Be Good"
 date:   2015-02-18 15:30:00
 categories: creating-gemba

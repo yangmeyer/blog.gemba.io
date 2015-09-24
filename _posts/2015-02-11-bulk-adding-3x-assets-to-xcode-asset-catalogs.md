@@ -1,5 +1,6 @@
 ---
 layout: post
+author: yang
 title:  "Bulk-adding @3x assets to Xcode Asset Catalogs"
 date:   2015-02-11 16:34:14
 categories: using-gemba
