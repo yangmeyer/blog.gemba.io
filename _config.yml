@@ -11,3 +11,13 @@ twitter_username: GembaApp
 
 # Build settings
 markdown: kramdown
+
+# http://www.lostdecadegames.com/blog-author-attribution-using-jekyll/
+authors:
+  yang:
+    display_name: Yang Meyer
+    gravatar: 405958e4aa35fd9d028f9ceb95448614
+    email: yang@gemba.io
+    web: http://blog.yangmeyer.de
+    twitter: yangmeyer
+    short_bio: "Indie &amp; freelance Mac/iOS development &amp; UX design, ultimate frisbee, beerbrewing."

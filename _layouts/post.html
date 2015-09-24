@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign page_author = site.authors[page.author] %}
 <div class="post">
 
   <header class="post-header">
@@ -11,5 +12,17 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+  {% if page_author %}
+  <div style="max-width:320px; margin-top:3em; color:#666">
+		<img src="http://www.gravatar.com/avatar/{{ page_author.gravatar }}?s=60" style="float:left; margin:0 15px 3em 0; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%" />
+		<div style="font-size:0.9rem; line-height:1.25rem">
+			<h6 class="author" style="font-weight:bold"><a href="https://twitter.com/yangmeyer" style="color:#333">{{ page_author.display_name }}</a></h6>
+			{% if page_author.short_bio %}
+			<p style="font-size:inherit">{{ page_author.short_bio }}</p>
+			{% endif %}
+		</div>
+  </div>
+  {% endif %}
 
 </div>
