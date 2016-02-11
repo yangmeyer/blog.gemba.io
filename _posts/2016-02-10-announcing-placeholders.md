@@ -3,6 +3,7 @@ layout: post
 title:  "Using Placeholders in lean app development"
 date:   2019-02-10 11:20:00
 categories: creating-gemba
+author:	yang
 
 ---
 Historically, software was built in strictly separated phases, from conception through analysis to implementation. We have since learned how painfully ineffective and wasteful this [waterfall model](This is obviously a cultural problem) is, and have turned to Agile and Lean practices. Indeed, most teams of developers today organize their work using Scrum or [Kanban](https://en.wikipedia.org/wiki/Kanban_%28development%29).
