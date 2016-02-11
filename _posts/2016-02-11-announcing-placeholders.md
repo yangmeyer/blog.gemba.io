@@ -2,7 +2,7 @@
 layout: post
 author:	yang
 title:  "Using Placeholders in lean app development"
-date:   2016-02-11 14:20:00
+date:   2016-02-11 19:20:00
 categories: creating-gemba
 ---
 
